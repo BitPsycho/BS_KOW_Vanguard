@@ -26,7 +26,7 @@ This project contains the necessary definitions which allow you to use Vanguard 
 Looking for info on how to install Vanguard into BattleScribe ? 
 [Read our WIKI entry](https://github.com/BitPsycho/BS_KOW_Vanguard/wiki#how-to-install-in-battle-scribe)
 
-## Furhter info & recent news
+## Further info & recent news
 
 Please check out our WIKI page for the most recent news and more information.
 
