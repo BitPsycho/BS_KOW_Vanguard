@@ -1,4 +1,4 @@
-# Welcome to the BattleScribe - Kings Of War - Vanguard
+# Welcome to the BattleScribe - Kings Of War - Vanguard - Data Files
 
 ## Introduction 
 
