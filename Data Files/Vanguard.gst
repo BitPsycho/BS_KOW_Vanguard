@@ -137,7 +137,6 @@ All warband rules listed on page 45 of the rulebook are validated by Battlescrib
 
 Currently NOT implemented:
 
-- Multiple items selection of the same type (eg sundries) for a warband member is NOT prevented - but this is visually visible in the roster - each items category should have only 1 entry
 - Second faction spell selection is not paid for with 10 points
 </description>
         </rule>
@@ -291,7 +290,6 @@ All warband rules for SMALLER games listed on page 45 of the rulebook are valida
 
 Currently NOT implemented:
 
-- Multiple items selection of the same type (eg sundries) for a warband member is NOT prevented - but this is visually visible in the roster - each items category should have only 1 entry
 - Second faction spell selection is not paid for with 10 points
 </description>
         </rule>
@@ -1468,6 +1466,13 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="decrement" field="74cb-81db-98da-4143" value="1">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="960d-3155-b6bb-ff2c" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="74cb-81db-98da-4143" type="max"/>
@@ -1480,7 +1485,9 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8090-525b-4a1d-fc8a" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1516,7 +1523,9 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50e3-6f3e-e4a6-f136" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1560,7 +1569,9 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="761a-d56f-efe4-3daf" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1580,7 +1591,9 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5517-ab48-d57a-7b28" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1616,7 +1629,9 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3eb-71c2-c227-672c" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1636,7 +1651,9 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c66c-a916-1fa3-91a6" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -2173,6 +2190,13 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="decrement" field="2b0a-c117-f23a-8120" value="1">
+          <repeats>
+            <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c9c8-ac7b-333d-0312" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b0a-c117-f23a-8120" type="max"/>
@@ -2185,7 +2209,9 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="120c-6d78-bef8-2799" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -2229,7 +2255,9 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e09-6845-a7fb-ca80" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -2257,7 +2285,9 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cc9-3dbb-f97b-3897" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -2277,7 +2307,9 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b9a-d869-dfad-7846" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
