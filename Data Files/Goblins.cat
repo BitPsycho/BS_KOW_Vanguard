@@ -34,6 +34,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Goblin"/>
           </characteristics>
         </profile>
       </profiles>
@@ -131,6 +132,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="2D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Goblin"/>
           </characteristics>
         </profile>
       </profiles>
@@ -223,6 +225,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Goblin"/>
           </characteristics>
         </profile>
       </profiles>
@@ -306,6 +309,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Beast"/>
           </characteristics>
         </profile>
       </profiles>
@@ -364,6 +368,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="5D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Troll"/>
           </characteristics>
         </profile>
       </profiles>
@@ -457,6 +462,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="2D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Goblin"/>
           </characteristics>
         </profile>
       </profiles>
@@ -555,6 +561,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Goblin"/>
           </characteristics>
         </profile>
       </profiles>
@@ -597,36 +604,41 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="4807-949c-e384-7168" name="Spellbook - Basic Wiz" hidden="false" targetId="1a31-45a4-51fa-961e" type="selectionEntryGroup">
+        <entryLink id="4807-949c-e384-7168" name=" Spellbook - Basic Wiz" hidden="false" targetId="1a31-45a4-51fa-961e" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="decrement" field="e75e-11e6-aeb1-559b" value="1">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1c71-d065-6a11-665a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="4805-5858-0499-cb12" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1c71-d065-6a11-665a" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="3f38-886d-1972-255d" value="1">
+              <repeats>
+                <repeat field="selections" scope="4805-5858-0499-cb12" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8264-6e8e-3e44-c2c9" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f38-886d-1972-255d" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f38-886d-1972-255d" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e75e-11e6-aeb1-559b" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="1c71-d065-6a11-665a" name="Spellbook - Goblins" hidden="false" targetId="a7a8-a7fb-2ab5-11ad" type="selectionEntryGroup">
+        <entryLink id="1c71-d065-6a11-665a" name=" Spellbook - Goblins (Free)" hidden="false" targetId="a7a8-a7fb-2ab5-11ad" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c25d-d4c8-47a4-1717" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="fe8e-0e14-d990-e532" name="Spellbook - Corrupt" hidden="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup">
+        <entryLink id="fe8e-0e14-d990-e532" name=" Spellbook - Corrupt" hidden="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -643,6 +655,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="03be-d06d-717f-8367" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f49a-f380-9101-1651" name=" Spellbook - Goblins (Paid)" hidden="false" targetId="6acc-99dc-a694-7385" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -673,6 +693,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="2D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Goblin"/>
           </characteristics>
         </profile>
       </profiles>
@@ -772,7 +793,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="37fc-f8c3-894e-4c46" name="Spell - Slink" hidden="false" targetId="40ae-7df8-1e18-ce14" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f82d-75d2-cae6-6e10" type="max"/>
@@ -809,7 +837,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="5686-c489-b478-a12a" name="Spell - Shrivel" hidden="false" targetId="69c1-f427-8071-25ff" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af03-770e-989e-eb18" type="max"/>
@@ -877,12 +912,14 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="a7a8-a7fb-2ab5-11ad" name="Spellbook - Goblins" hidden="false" collective="false">
+    <selectionEntryGroup id="a7a8-a7fb-2ab5-11ad" name=" Spellbook - Goblins (Free)" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1bc-bb15-68b1-f133" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="6e13-0dc1-7baa-83cf" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
           <profiles/>
@@ -917,7 +954,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="1a31-45a4-51fa-961e" name="Spellbook - Basic Wiz" book="Rulebook" page="41" hidden="false" collective="false">
+    <selectionEntryGroup id="1a31-45a4-51fa-961e" name=" Spellbook - Basic Wiz" book="Rulebook" page="41" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -957,6 +994,58 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="6acc-99dc-a694-7385" name=" Spellbook - Goblins (Paid)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d398-7fe3-0ae2-f0f1" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0dab-c9d9-728c-b233" name="Shrivel (short)" hidden="false" targetId="de79-50fc-40a7-baa3" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f4f9-5c3a-554e-606b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fd51-37f4-4f47-b346" name="Slink (short)" hidden="false" targetId="2335-9511-3f2b-6927" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7eb1-f099-ea0a-3855" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="1e48-b698-f75f-8907" name="Howl ! (1)" hidden="false">
@@ -964,24 +1053,46 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use when the model activates or after it has finished its actions. Any friendly, non-Fatigued and non-activated Mawbeasts within 6” of this model can immediately make a Walk action directly towards this model without being marked as activated. An individual Mawbeast can only Howl! once per Round.</description>
     </rule>
     <rule id="6b03-4684-97f3-c6a9" name="Vicious Swipe" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>When attempting to Break Away from a Troll, enemy models have a -1 modifier when they make their Armour Save roll.</description>
     </rule>
     <rule id="3337-2f17-f0ea-8545" name="Dodgy Grenades" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>When making a ranged attack, first roll 1D8. On the roll of 1, the grenande fails to explode and no further dice are rolled. Otherwise, the attack proceeds as normal.</description>
     </rule>
     <rule id="fed1-eaba-a309-3d60" name="Cackle ! (1)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use when the model activates. The model may cast the same spell twice this Turn if it has enough actions.</description>
+    </rule>
+    <rule id="40ae-7df8-1e18-ce14" name="Spell - Slink" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Target a friendly, model with a -1 modifier on the roll. If a hit is scored, instead of suffering a wound, the target model removes any Activation counter on it and can be activated again this Round in a later Turn.</description>
+    </rule>
+    <rule id="69c1-f427-8071-25ff" name="Spell - Shrivel" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>For each hit scored, the target suffers a -1 modifier to any Melee or Ranged attack it makes until the end of the Round.
+
+Boosted version: 
+
+Cast as a long action instead. The spell rolls 3D8 rather than 2D8.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

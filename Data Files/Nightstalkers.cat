@@ -33,6 +33,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -120,6 +121,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -201,6 +203,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="2D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -295,6 +298,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -384,6 +388,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -479,6 +484,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -568,6 +574,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker, Beast"/>
           </characteristics>
         </profile>
       </profiles>
@@ -638,6 +645,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="4D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -725,6 +733,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -818,6 +827,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -917,6 +927,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1010,6 +1021,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1112,6 +1124,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="-"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Evil"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Nightstalker"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1130,6 +1143,18 @@
           <modifiers/>
         </infoLink>
         <infoLink id="ca17-b9e6-2d42-2c91" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0249-c795-3250-f1bb" name="All-seeing" hidden="false" targetId="2298-7df1-effa-eb3d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="134a-f4f6-55c1-bc78" name="Draw Dark Power (2)" hidden="false" targetId="0a5f-6449-36ac-7c51" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1176,36 +1201,49 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="b46f-323d-60d2-a69c" name="Spellbook - Basic Mind-screech" hidden="false" targetId="a4a7-2b8c-9e8b-68dd" type="selectionEntryGroup">
+        <entryLink id="b46f-323d-60d2-a69c" name=" Spellbook - Basic Mind-screech" hidden="false" targetId="a4a7-2b8c-9e8b-68dd" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="decrement" field="debc-d096-770c-ea9f" value="1">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" childId="225f-f771-b693-4337" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="1c05-bc74-3ef3-096d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="225f-f771-b693-4337" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="9e9c-367e-f545-f5b3" value="1">
+              <repeats>
+                <repeat field="selections" scope="1c05-bc74-3ef3-096d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8264-6e8e-3e44-c2c9" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e9c-367e-f545-f5b3" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e9c-367e-f545-f5b3" type="min"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="debc-d096-770c-ea9f" type="max"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="225f-f771-b693-4337" name="Spellbook - Nightstalkers" hidden="false" targetId="fe7f-acbe-55f0-1f3b" type="selectionEntryGroup">
+        <entryLink id="225f-f771-b693-4337" name=" Spellbook - Nightstalkers (Free)" hidden="false" targetId="fe7f-acbe-55f0-1f3b" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce1b-5fea-66b7-7b79" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="cb5c-c330-f558-9f6b" name="Spellbook - Corrupt" hidden="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup">
+        <entryLink id="cb5c-c330-f558-9f6b" name=" Spellbook - Corrupt" hidden="false" targetId="2924-30ce-7cca-d3bc" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="880b-2019-fff2-e23c" name=" Spellbook - Nightstalkers (Paid)" hidden="false" targetId="3da4-49f4-1093-06f3" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1275,7 +1313,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="c1c3-9eb7-f43a-4315" name="Spell - Horrify" hidden="false" targetId="4638-4002-1860-b2d0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -1310,7 +1355,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="277a-2e3c-2027-c95f" name="Spell - Fear the Darkness" hidden="false" targetId="adab-76fd-ae17-7a6d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -1332,12 +1384,14 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="fe7f-acbe-55f0-1f3b" name="Spellbook - Nightstalkers" hidden="false" collective="false">
+    <selectionEntryGroup id="fe7f-acbe-55f0-1f3b" name=" Spellbook - Nightstalkers (Free)" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3635-da3f-87e6-ec44" type="max"/>
+      </constraints>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -1364,7 +1418,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="a4a7-2b8c-9e8b-68dd" name="Spellbook - Basic Mind-screech" book="Rulebook" page="41" hidden="false" collective="false">
+    <selectionEntryGroup id="a4a7-2b8c-9e8b-68dd" name=" Spellbook - Basic Mind-screech" book="Rulebook" page="41" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1400,6 +1454,50 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="3da4-49f4-1093-06f3" name=" Spellbook - Nightstalkers (Paid)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5be2-faf4-fd0f-edc7" name="Horrify (short)" hidden="false" targetId="0e0e-365d-8126-2e57" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3847-529c-93e6-0189" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="225f-d3dd-277f-2df4" name="Fear the Darkness (long)" hidden="false" targetId="40bc-9298-4c5c-1816" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69a0-c265-1053-6ed5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="a396-7368-c857-ebd5" name="Dread (1)" hidden="false">
@@ -1407,36 +1505,74 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Nominate any one of your Nightstalker models on the table that is not Fatigued. Pick one enemy model within 3” of the nominated Nightstalker. This model must immediately make a Nerve test with a -1 modifier. If the test if failed the model is marked as Activated. Any rules that apply to Nerve tests (e.g. Inspiring) can be used normally. This ability may be used once in each Nightstalker Turn, and is not limited to one use per Round.</description>
     </rule>
     <rule id="7095-4a5b-4a7a-ea05" name="Firebolt" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>This model has a ranged attack with Range 9” and Piercing (1).</description>
     </rule>
     <rule id="d69a-001f-cf35-3d34" name="Bane Chant" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Friendly Nightstalker models (but not the model itself) have the Vicious special rule while within 6” of this model.</description>
     </rule>
     <rule id="7655-5392-a1d7-97b6" name="Cause Fear (2)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use when the model activates. All enemy models within 6&quot; of the Shade must immediately take a Nerve test. Any models that fail are marked as Fatigued.</description>
     </rule>
     <rule id="9a6b-7f27-b20b-82c1" name="Wail (2)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use when the model activates. All standing enemy models within 6” of the Banshee must immediately take a Nerve test. Any models that fail, must immediately make a Walk action directly away from the Banshee using their full Speed value, moving as far as possible following the normal movement rules. Models that are moved are NOT Activated or Fatigued unless already marked as such before any effect from Wail is applied.</description>
     </rule>
     <rule id="27bf-77f4-754f-3299" name="Soul Thirst (short)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use as an action. Friendly Nightstalker models (but not the model itself), while within 6” of this model, gain 1 bonus die for any Melee attack they make until the end of the current Round.</description>
+    </rule>
+    <rule id="adab-76fd-ae17-7a6d" name="Spell - Fear the Darkness" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>LOS to the target is not required. If a hit is scored, instead of taking any wounds, the target is marked as both Activated and Fatigued and must then make a Nerve test. If it is failed, the target is Knocked-down.</description>
+    </rule>
+    <rule id="4638-4002-1860-b2d0" name="Spell - Horrify" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>No dice roll is necessary and LOS is not required to the target. The target model must immediately make a Fallback Check with a -1 modifier.
+
+Boosted version: 
+
+Cast as a long action instead. As above, but the modifier is increased to -2 and a failure cannot be re-rolled for any reason.</description>
+    </rule>
+    <rule id="0a5f-6449-36ac-7c51" name="Draw Dark Power (2)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Use ths ability when taking a cast action. Draw Dark Power allows the model to cast a long action spell as a short action.</description>
+    </rule>
+    <rule id="2298-7df1-effa-eb3d" name="All-seeing" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>The Mind-screech can draw LOS and cast spells all round (into both its front and rear arcs)</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

@@ -41,6 +41,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Human"/>
           </characteristics>
         </profile>
       </profiles>
@@ -109,6 +110,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="2D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Elf"/>
           </characteristics>
         </profile>
       </profiles>
@@ -202,6 +204,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Dwarf"/>
           </characteristics>
         </profile>
       </profiles>
@@ -280,6 +283,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Human"/>
           </characteristics>
         </profile>
       </profiles>
@@ -356,6 +360,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Half-Elf"/>
           </characteristics>
         </profile>
       </profiles>
@@ -452,6 +457,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Neritican"/>
           </characteristics>
         </profile>
       </profiles>
@@ -546,6 +552,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="2D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Elf"/>
           </characteristics>
         </profile>
       </profiles>
@@ -656,6 +663,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="4D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Elemental"/>
           </characteristics>
         </profile>
       </profiles>
@@ -762,6 +770,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Beast / Half-Elf"/>
           </characteristics>
         </profile>
       </profiles>
@@ -863,6 +872,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="4D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Troll"/>
           </characteristics>
         </profile>
       </profiles>
@@ -964,6 +974,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="4D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Half-Elf"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1075,6 +1086,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="5D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Troll"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1203,6 +1215,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="4D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Human"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1296,6 +1309,7 @@
             <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
             <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
             <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Good"/>
+            <characteristic name="Race" characteristicTypeId="3ce2-af00-1127-86fb" value="Elf"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1332,17 +1346,7 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="9abf-9db5-7149-1704" name="Spellbook - Northern Alliance" hidden="false" targetId="9bd4-dbdc-cec2-78ab" type="selectionEntryGroup">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ea5-795d-b4a3-77d9" type="max"/>
-          </constraints>
-          <categoryLinks/>
-        </entryLink>
-        <entryLink id="c4ce-500d-bb69-65bf" name="Spellbook - Noble" hidden="false" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup">
+        <entryLink id="9abf-9db5-7149-1704" name=" Spellbook - Northern Alliance (Free)" hidden="false" targetId="9bd4-dbdc-cec2-78ab" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1350,21 +1354,36 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="0bf2-a3df-ef3d-ff71" name="Spellbook - Basic Ice Queen" hidden="false" targetId="9255-ad3a-b198-7dac" type="selectionEntryGroup">
+        <entryLink id="c4ce-500d-bb69-65bf" name=" Spellbook - Noble" hidden="false" targetId="9d30-0373-64e2-5580" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0bf2-a3df-ef3d-ff71" name=" Spellbook - Basic Ice Queen" hidden="false" targetId="9255-ad3a-b198-7dac" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers>
             <modifier type="decrement" field="4c0e-f946-981d-1e19" value="1">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="9abf-9db5-7149-1704" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="3a3a-da30-5132-1a13" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9abf-9db5-7149-1704" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="9372-e967-6bfe-f184" value="1">
+              <repeats>
+                <repeat field="selections" scope="3a3a-da30-5132-1a13" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8264-6e8e-3e44-c2c9" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9372-e967-6bfe-f184" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9372-e967-6bfe-f184" type="min"/>
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c0e-f946-981d-1e19" type="max"/>
           </constraints>
           <categoryLinks/>
@@ -1378,6 +1397,14 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="d5e0-95ca-5bcd-2cae" name="Items - Rare" hidden="false" targetId="960d-3155-b6bb-ff2c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="498f-a850-8814-0dfb" name=" Spellbook - Northern Alliance (Paid)" hidden="false" targetId="9fe7-6a3f-1b49-6e01" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1408,7 +1435,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="6826-196b-8f60-fb40" name="Spell - Hold Fast" hidden="false" targetId="ffa6-6048-3d20-7166" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -1443,7 +1477,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="bcd2-1e7e-65ae-dc11" name="Spell - Winter’s Bite" hidden="false" targetId="6265-aaaa-030e-9a8e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -1487,7 +1528,14 @@
     <selectionEntry id="a92b-70ae-f79a-8fb7" name="Frost-Trident" hidden="false" collective="false" type="upgrade">
       <profiles/>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="8dd9-9efb-de2c-9166" name="Frost Trident" hidden="false" targetId="66ae-fde3-ed43-fa51" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -1545,12 +1593,14 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="9bd4-dbdc-cec2-78ab" name="Spellbook - Northern Alliance" hidden="false" collective="false">
+    <selectionEntryGroup id="9bd4-dbdc-cec2-78ab" name=" Spellbook - Northern Alliance (Free)" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
-      <constraints/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6032-4472-7a55-c528" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="7789-b9ee-84ef-c2bc" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
           <profiles/>
@@ -1585,7 +1635,7 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9255-ad3a-b198-7dac" name="Spellbook - Basic Ice Queen" book="Rulebook" page="" hidden="false" collective="false">
+    <selectionEntryGroup id="9255-ad3a-b198-7dac" name=" Spellbook - Basic Ice Queen" book="Rulebook" page="41" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1629,6 +1679,58 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="9fe7-6a3f-1b49-6e01" name=" Spellbook - Northern Alliance (Paid)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ede3-a950-e451-d1ec" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="0de7-3200-5643-d15e" name="Hold Fast (short)" hidden="false" targetId="3d8c-4bad-b9e2-97ad" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7102-be10-1c13-5103" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="4028-4bd0-83ab-d970" name="Winter’s Bite (long)" hidden="false" targetId="1a7a-2ab5-8462-8622" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="b888-e3bd-8798-6364" value="10">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d155-48ee-8734-e772" type="max"/>
+          </constraints>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="7543-6f96-15f0-8234" name="Frenzy (1)" hidden="false">
@@ -1636,42 +1738,81 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use this ability to gain 2 bonus dice when this model makes a Melee attack (not a Retaliation). Spend the power before rolling any dice. Cannot be used in conjunction with the normal use of Power to gain a bonus dice for a roll.</description>
     </rule>
     <rule id="6844-5a38-9d94-2b07" name="Rapid Fire (2)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use this ability when this model is about to perform a ranged attack, before dice are rolled. The model may shoot twice at two different targets that are within 3&quot; of each other following the normal targeting rules. This cannot be as part of a Group or Fatigue Action.</description>
     </rule>
     <rule id="5d80-fea9-b189-b720" name="Ice Blast (1)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use this ability when a model is knocked down by this elemental in Melee. The model must take a Nerve test. If the test is failed, the model is marked as Fatigued.</description>
     </rule>
     <rule id="2714-56d3-a46b-0f22" name="Icy Breath (2)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use this ability when taking a Shoot action. Make a Ranged attack using an Ra value of 5+, 3D8, Range 9&quot;, Breath, Piercing (1).</description>
     </rule>
     <rule id="1453-a604-8789-f293" name="Vicious Swipe" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>When attempting to Break Away from a Troll, enemy models have a -1 modifier when they make their Armour Save roll.</description>
     </rule>
     <rule id="eb4b-1dd8-49ac-39dc" name="Head Swing (1)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use this ability when making a Melee attack (not a Retaliate) instead of rolling to hit as normal. Every enemy model that is Engaged with this model must make a Nerve test. If any model fails its test, it is knocked-down and marked as Fatigued. Once all models have made a test, the Melee attack ends. Models may Retaliate if permitted to do so as normal.</description>
     </rule>
     <rule id="8778-5d9f-7ab1-456e" name="Blade Master (2)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use this ability when this model makes a Melee attack (including Retaliations) before dice are rolled. The Ice Blade may attack all enemy models it is Enaged with in its front arc by dividing the attack dice between them. Allocate the dice to be used for each enemy model before any are rolled. If the Ice Blade initiated the Fight, only one enemy model may Retaliate (enemy player’s choice) and only after all the Ice Blade’s attacks are resolved. Bonus die granted for the status of models (e.g. knocked-down) can only be allocated to that model).</description>
+    </rule>
+    <rule id="ffa6-6048-3d20-7166" name="Spell - Hold Fast" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Target a friendly model, even if it is Engaged. For the remainder of the Round, that model has a +1 modifier to any Nerve tests it is required to make and may add 1 bonus die to any Armour rolls it must take.
+
+Boosted version: 
+
+Cast as a long action instead. As above, but the modifier is increased to +2 and the bonus dice are increased to 2.</description>
+    </rule>
+    <rule id="6265-aaaa-030e-9a8e" name="Spell - Winter’s Bite" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>If the target suffers any wounds, they are Knocked-down and marked as Fatigued.</description>
+    </rule>
+    <rule id="66ae-fde3-ed43-fa51" name="Frost Trident" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description> For any wound caused by a Melee attack with the Frost-Trident, the target model is pinned in place until the end of their next activation. While the model is pinned their Sp is reduced to 0 and they cannot make a Break Away action.</description>
+    </rule>
+    <rule id="79a0-5d5c-4b24-84a8" name="Frost Hammer" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>A great two-handed hammer wielded by the Dwarf clans in the North. The model gains Crushing Strength (1) and increases its Ar by 1.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

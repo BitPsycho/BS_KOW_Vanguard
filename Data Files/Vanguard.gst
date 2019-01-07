@@ -19,6 +19,7 @@
         <characteristicType id="0a27-40ac-5701-ef13" name="Ranged"/>
         <characteristicType id="01d6-153a-0767-f01e" name="Melee"/>
         <characteristicType id="e9b1-68cd-5cbd-0251" name="Alignment"/>
+        <characteristicType id="3ce2-af00-1127-86fb" name="Race"/>
       </characteristicTypes>
     </profileType>
     <profileType id="ee66-a079-031d-2e14" name="Equipment - Shooting">
@@ -77,6 +78,9 @@
         <characteristicType id="db39-0dbc-ae1f-4d0b" name="Rules"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="d208-3ff2-f4a5-7e56" name="Equipment - Melee">
+      <characteristicTypes/>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="acf5-674c-f31b-80a2" name="Grunt" hidden="false">
@@ -131,14 +135,10 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>BETA Implemenation
+          <description>
+BETA Implemenation
 
-All warband rules listed on page 45 of the rulebook are validated by Battlescribe.
-
-Currently NOT implemented:
-
-- Second faction spell selection is not paid for with 10 points
-</description>
+All warband rules listed on page 45 of the rulebook can be validated by Battlescribe.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -284,14 +284,10 @@ Currently NOT implemented:
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>BETA Implemenation
+          <description>
+BETA Implemenation
 
-All warband rules for SMALLER games listed on page 45 of the rulebook are validated by Battlescribe.
-
-Currently NOT implemented:
-
-- Second faction spell selection is not paid for with 10 points
-</description>
+All warband rules for SMALLER games listed on page 45 of the rulebook can be validated by Battlescribe.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -374,17 +370,23 @@ Currently NOT implemented:
             <characteristic name="Notes" characteristicTypeId="b876-0400-ed60-8011"/>
           </characteristics>
         </profile>
-      </profiles>
-      <rules>
-        <rule id="e9e4-5cd7-2f03-8728" name="Spear" hidden="false">
+        <profile id="4b8c-872b-ce7d-6405" name="Spear" hidden="false" profileTypeId="d208-3ff2-f4a5-7e56" profileTypeName="Equipment - Melee">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Models with spears ...(TODO)</description>
-        </rule>
-      </rules>
-      <infoLinks/>
+          <characteristics/>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="88ea-4a58-bccb-2b5e" name="Spear" hidden="false" targetId="0eac-eab3-f72e-6f2c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="622e-e125-aee2-476c" type="max"/>
@@ -1210,13 +1212,13 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="d247-2f3d-3f45-2c67" name="Piercing (1)" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink id="d247-2f3d-3f45-2c67" name="Spell - Piercing (1)" hidden="false" targetId="34ba-33d9-c057-fd44" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="9bae-fc92-7fd6-4d7a" name="Marksman" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule">
+        <infoLink id="9bae-fc92-7fd6-4d7a" name="Spell - Marksman" hidden="false" targetId="15a0-b274-e8ba-6a75" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1251,7 +1253,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="8f9a-b006-bf7e-4a8d" name="Piercing (1)" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
+        <infoLink id="8f9a-b006-bf7e-4a8d" name="Spell - Piercing (1)" hidden="false" targetId="34ba-33d9-c057-fd44" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1671,7 +1673,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="cff4-79e8-2c40-b46c" name="Spellbook - Basic " book="Rulebook" page="41" hidden="false" collective="false">
+    <selectionEntryGroup id="cff4-79e8-2c40-b46c" name=" Spellbook - Basic " book="Rulebook" page="41" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1771,7 +1773,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="9d30-0373-64e2-5580" name="Spellbook - Noble" hidden="false" collective="false">
+    <selectionEntryGroup id="9d30-0373-64e2-5580" name=" Spellbook - Noble" book="Rulebook" page="123" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1982,7 +1984,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6890-416f-3aac-976f" name="Spellbook - Primoridal" hidden="false" collective="false">
+    <selectionEntryGroup id="6890-416f-3aac-976f" name=" Spellbook - Primoridal" book="Rulebook" page="124" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2327,7 +2329,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
-    <selectionEntryGroup id="2924-30ce-7cca-d3bc" name="Spellbook - Corrupt" hidden="false" collective="false">
+    <selectionEntryGroup id="2924-30ce-7cca-d3bc" name=" Spellbook - Corrupt" book="Rulebook" page="125" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2520,7 +2522,7 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="607b-a841-9e41-92c0" name="Reload" hidden="false">
+    <rule id="607b-a841-9e41-92c0" name="Reload" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2538,56 +2540,59 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use this ability when this model makes a Shoot action with its Bow before any dice are rolled. Any hits are resolved with Piercing (1).</description>
     </rule>
-    <rule id="ae52-7371-2843-ca27" name="Parry" hidden="false">
+    <rule id="ae52-7371-2843-ca27" name="Parry" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="4c89-1651-1e0c-f54a" name="Crushing Strength (1)" hidden="false">
+    <rule id="4c89-1651-1e0c-f54a" name="Crushing Strength (1)" book="Rulebook" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+</description>
+    </rule>
+    <rule id="a9d4-371e-0de9-bb9d" name="Defender" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="a9d4-371e-0de9-bb9d" name="Defender" hidden="false">
+    <rule id="dbde-2f47-77ef-7c4b" name="Crushing Strength (2)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="dbde-2f47-77ef-7c4b" name="Crushing Strength (2)" hidden="false">
+    <rule id="a715-6836-a848-093a" name="Crushing Strength (3)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="a715-6836-a848-093a" name="Crushing Strength (3)" hidden="false">
+    <rule id="7ab6-3cc6-82ce-2437" name="Vicious" book="Rulebook" page="39" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="7ab6-3cc6-82ce-2437" name="Vicious" hidden="false">
+    <rule id="b26e-9018-2d56-fa19" name="Steady" book="Rulebook" page="39" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="b26e-9018-2d56-fa19" name="Steady" hidden="false">
+    <rule id="e8ea-0d93-409b-b7ab" name="Sneaky" book="Rulebook" page="39" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="e8ea-0d93-409b-b7ab" name="Sneaky" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="c182-1549-6080-b945" name="Inspiring" hidden="false">
+    <rule id="c182-1549-6080-b945" name="Inspiring" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2641,25 +2646,25 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="9fd9-8e4c-3cc5-a0e9" name="Piercing (3)" hidden="false">
+    <rule id="9fd9-8e4c-3cc5-a0e9" name="Piercing (3)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="3134-cb69-0b82-ff1a" name="Piercing (2)" hidden="false">
+    <rule id="3134-cb69-0b82-ff1a" name="Piercing (2)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="c368-af1a-68cf-2b9b" name="Piercing (1)" hidden="false">
+    <rule id="c368-af1a-68cf-2b9b" name="Piercing (1)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="eaf9-1104-cc8b-b6e6" name="Marksman" hidden="false">
+    <rule id="eaf9-1104-cc8b-b6e6" name="Marksman" book="Rulebook" page="38 " hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2698,145 +2703,149 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <modifiers/>
       <description>Cannot be taken by models with the cavalry special rule</description>
     </rule>
-    <rule id="fa8a-67fe-b077-d4f8" name="6th Sense" hidden="false">
+    <rule id="fa8a-67fe-b077-d4f8" name="6th Sense" book="Rulebook" page="37" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+</description>
+    </rule>
+    <rule id="8e13-f6c7-f62e-6a82" name="Breath" book="Rulebook" page="37" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="8e13-f6c7-f62e-6a82" name="Breath" hidden="false">
+    <rule id="4298-bc07-8bde-44db" name="Bloodlust" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="4298-bc07-8bde-44db" name="Bloodlust" hidden="false">
+    <rule id="8a34-74be-5d22-bf2e" name="Cavalry" book="Rulebook" page="38" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>
+</description>
+    </rule>
+    <rule id="02e7-0f47-e451-32e3" name="Mob Assault" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="8a34-74be-5d22-bf2e" name="Cavalry" hidden="false">
+    <rule id="7f0d-9c7d-2950-e021" name="Dodge" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="02e7-0f47-e451-32e3" name="Mob Assault" hidden="false">
+    <rule id="5f24-221a-0b9f-3b93" name="Fly" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="7f0d-9c7d-2950-e021" name="Dodge" hidden="false">
+    <rule id="895c-93e1-e820-84d0" name="Headstrong" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="5f24-221a-0b9f-3b93" name="Fly" hidden="false">
+    <rule id="d784-105b-8a37-5071" name="Pathfinder" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="895c-93e1-e820-84d0" name="Headstrong" hidden="false">
+    <rule id="7fd8-583b-4c57-d0c9" name="Pound" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="d784-105b-8a37-5071" name="Pathfinder" hidden="false">
+    <rule id="bc84-d44c-03ae-d1bb" name="Regenerate (8+)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="7fd8-583b-4c57-d0c9" name="Pound" hidden="false">
+    <rule id="c15d-9055-202a-1475" name="Regenerate (7+)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="bc84-d44c-03ae-d1bb" name="Regenerate (8+)" hidden="false">
+    <rule id="2314-80d9-833b-9841" name="Regenerate (6+)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="c15d-9055-202a-1475" name="Regenerate (7+)" hidden="false">
+    <rule id="ef68-9142-4f24-536d" name="Regenerate (5+)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="2314-80d9-833b-9841" name="Regenerate (6+)" hidden="false">
+    <rule id="5f0e-2718-148a-6b7e" name="Regenerate (4+)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="ef68-9142-4f24-536d" name="Regenerate (5+)" hidden="false">
+    <rule id="c7f8-80d0-ae56-741e" name="Regenerate (3+)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="5f0e-2718-148a-6b7e" name="Regenerate (4+)" hidden="false">
+    <rule id="162e-1274-1350-0962" name="Regenerate (2+)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="c7f8-80d0-ae56-741e" name="Regenerate (3+)" hidden="false">
+    <rule id="e21e-6b67-d369-f9a9" name="Regenerate (1+)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="162e-1274-1350-0962" name="Regenerate (2+)" hidden="false">
+    <rule id="5209-65f6-aa6e-7643" name="Scout" book="Rulebook" page="39" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="e21e-6b67-d369-f9a9" name="Regenerate (1+)" hidden="false">
+    <rule id="68df-368d-fd73-8e4b" name="Smash" book="Rulebook" page="39" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="5209-65f6-aa6e-7643" name="Scout" hidden="false">
+    <rule id="93a5-2c7a-91a6-c4e9" name="Stubborn" book="Rulebook" page="39" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="68df-368d-fd73-8e4b" name="Smash" hidden="false">
+    <rule id="1025-9473-ccb9-71b5" name="Swarm" book="Rulebook" page="39" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="93a5-2c7a-91a6-c4e9" name="Stubborn" hidden="false">
+    <rule id="cfa9-9ce0-371c-e7cd" name="Unbreakable" book="Rulebook" page="39" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="1025-9473-ccb9-71b5" name="Swarm" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="cfa9-9ce0-371c-e7cd" name="Unbreakable" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
-    <rule id="67df-803d-48b0-1418" name="Very Inspiring" hidden="false">
+    <rule id="67df-803d-48b0-1418" name="Very Inspiring" book="Rulebook" page="39" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2860,37 +2869,37 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="5546-4beb-d018-5968" name="Crushing Strength (6)" hidden="false">
+    <rule id="5546-4beb-d018-5968" name="Crushing Strength (6)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="e9db-f562-b331-603f" name="Crushing Strength (5)" hidden="false">
+    <rule id="e9db-f562-b331-603f" name="Crushing Strength (5)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="3139-18f2-d0e2-1d87" name="Crushing Strength (4)" hidden="false">
+    <rule id="3139-18f2-d0e2-1d87" name="Crushing Strength (4)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="8d8f-4cd7-7400-d829" name="Piercing (4)" hidden="false">
+    <rule id="8d8f-4cd7-7400-d829" name="Piercing (4)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="cdce-6b41-1230-e504" name="Piercing (5)" hidden="false">
+    <rule id="cdce-6b41-1230-e504" name="Piercing (5)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="a07f-848d-66cf-34ce" name="Piercing (6)" hidden="false">
+    <rule id="a07f-848d-66cf-34ce" name="Piercing (6)" book="Rulebook" page="38" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2901,12 +2910,14 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use this ability when this model makes a Shoot action with its Bow before any dice are rolled. Any hits are resolved with Piercing (2).</description>
     </rule>
     <rule id="bd53-0a42-384a-47a6" name="Sharp Shooter (3)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>Use this ability when this model makes a Shoot action with its Bow before any dice are rolled. Any hits are resolved with Piercing (3).</description>
     </rule>
     <rule id="ded7-4bf3-7ab8-068e" name="Smite (3)" hidden="false">
       <profiles/>
@@ -2914,17 +2925,18 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="079c-f110-bd18-b3d5" name="Stealthy" hidden="false">
+    <rule id="079c-f110-bd18-b3d5" name="Stealthy" book="Rulebook" page="39" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="761a-5ccb-142e-0ebb" name="Expert Rider" hidden="false">
+    <rule id="761a-5ccb-142e-0ebb" name="Expert Rider" book="" page="" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
+      <description>This model can also claim the +1 Melee attack modifier for its cavalry special rule against targets of equal Height, not just those of lower Height.</description>
     </rule>
     <rule id="3faf-193f-3ea6-5b43" name="Rule Check - Allows 1 more Large then Normal" hidden="true">
       <profiles/>
@@ -2935,6 +2947,25 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
 Repeat a link in the warband root rules for every increase you want.</description>
     </rule>
     <rule id="c914-67a7-6b6e-dfca" name="Rule Check - Is Large Command" hidden="true">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="0eac-eab3-f72e-6f2c" name="Spear" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Models with spears not Engaged with an enemy model but within 2” of a friendly model that is, grant the Engaged model one bonus die for its Melee attacks. Only 1 bonus die may be given to a model in this way, regardless of the number of spears in range. Models with spears participating in a Group Charge Action to do not have to engage enemy models but must end their move within 2” of a model in the group that is engaged.</description>
+    </rule>
+    <rule id="15a0-b274-e8ba-6a75" name="Spell - Marksman" page="38 " hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="34ba-33d9-c057-fd44" name="Spell - Piercing (1)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
