@@ -1429,8 +1429,10 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
-            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571"/>
+            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="Y"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1473,6 +1475,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="3D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1505,16 +1509,19 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="62d4-ccf4-1150-dd04" name="Frosthammer" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks>
-        <infoLink id="ad51-a486-18a3-69b0" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+      <profiles>
+        <profile id="b265-8483-722a-d205" name="Frosthammer" hidden="false" profileTypeId="d208-3ff2-f4a5-7e56" profileTypeName="Equipment - Melee">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-        </infoLink>
-      </infoLinks>
+          <characteristics>
+            <characteristic name="Rules" characteristicTypeId="71ed-d60e-e323-198b" value="Crushing Strength (1)"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -1526,10 +1533,20 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a92b-70ae-f79a-8fb7" name="Frost-Trident" hidden="false" collective="false" type="upgrade">
-      <profiles/>
+      <profiles>
+        <profile id="915a-a974-58d6-201f" name="Frost-Trident" hidden="false" profileTypeId="d208-3ff2-f4a5-7e56" profileTypeName="Equipment - Melee">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Rules" characteristicTypeId="71ed-d60e-e323-198b"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="8dd9-9efb-de2c-9166" name="Frost Trident" hidden="false" targetId="66ae-fde3-ed43-fa51" type="rule">
+        <infoLink id="8dd9-9efb-de2c-9166" name="Weapon - Frost Trident" hidden="false" targetId="66ae-fde3-ed43-fa51" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1557,24 +1574,14 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="3D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5" value="Breath, Piercing (1)"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
         <infoLink id="9c04-c676-9bdb-1044" name="Icy Breath (2)" hidden="false" targetId="2714-56d3-a46b-0f22" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="9da4-3bde-f191-3556" name="Piercing (1)" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="76c4-deb0-8eab-485b" name="Breath" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1754,7 +1761,7 @@
       <modifiers/>
       <description>Use this ability when a model is knocked down by this elemental in Melee. The model must take a Nerve test. If the test is failed, the model is marked as Fatigued.</description>
     </rule>
-    <rule id="2714-56d3-a46b-0f22" name="Icy Breath (2)" hidden="false">
+    <rule id="2714-56d3-a46b-0f22" name="Spell - Icy Breath (2)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1800,14 +1807,14 @@ Cast as a long action instead. As above, but the modifier is increased to +2 and
       <modifiers/>
       <description>If the target suffers any wounds, they are Knocked-down and marked as Fatigued.</description>
     </rule>
-    <rule id="66ae-fde3-ed43-fa51" name="Frost Trident" hidden="false">
+    <rule id="66ae-fde3-ed43-fa51" name="Weapon - Frost Trident" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <description> For any wound caused by a Melee attack with the Frost-Trident, the target model is pinned in place until the end of their next activation. While the model is pinned their Sp is reduced to 0 and they cannot make a Break Away action.</description>
     </rule>
-    <rule id="79a0-5d5c-4b24-84a8" name="Frost Hammer" hidden="false">
+    <rule id="79a0-5d5c-4b24-84a8" name="Weapon - Frost Hammer" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

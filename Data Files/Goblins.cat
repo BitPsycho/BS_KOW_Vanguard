@@ -788,7 +788,9 @@
           <characteristics>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
-            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b"/>
+            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -833,6 +835,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="2D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="Y"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -874,26 +878,14 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="63"/>
-            <characteristic name="Piercing" characteristicTypeId="2573-02fd-f45c-f702" value="2"/>
-            <characteristic name="Reload" characteristicTypeId="5d9b-c548-d2dd-9f8b" value="-"/>
-          </characteristics>
-        </profile>
-        <profile id="d1a1-9c46-b972-9f64" name="Dodgy Grenades" hidden="false" profileTypeId="4dc9-b7a9-fe41-a041" profileTypeName="Area Effect">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Range" characteristicTypeId="f9c3-6e8c-513c-004c" value="2&quot;"/>
-            <characteristic name="Dice" characteristicTypeId="2e7f-fdd0-d47c-b762" value="1D8"/>
-            <characteristic name="Rules" characteristicTypeId="db39-0dbc-ae1f-4d0b"/>
+            <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="6&quot;"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4" value="Piercing (2), Area Effect (2” / 1D8)"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="9180-14b2-7ba6-542b" name="Piercing (2)" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule">
+        <infoLink id="6843-0a1a-63bc-6f08" name="Dodgy Grenades" hidden="false" targetId="3337-2f17-f0ea-8545" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1062,7 +1054,7 @@
       <modifiers/>
       <description>When attempting to Break Away from a Troll, enemy models have a -1 modifier when they make their Armour Save roll.</description>
     </rule>
-    <rule id="3337-2f17-f0ea-8545" name="Dodgy Grenades" hidden="false">
+    <rule id="3337-2f17-f0ea-8545" name="Weapon - Dodgy Grenades" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

@@ -969,6 +969,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1013,6 +1015,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="4D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1042,20 +1046,6 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs>
-        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0f55-9578-4a51-89d5" name="New SelectionEntry" hidden="false" collective="false" type="upgrade">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-      <constraints/>
-      <categoryLinks/>
-      <selectionEntries/>
-      <selectionEntryGroups/>
-      <entryLinks/>
       <costs>
         <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
       </costs>

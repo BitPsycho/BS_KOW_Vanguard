@@ -878,6 +878,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -920,24 +922,13 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5" value="Breath, Piercing (1)"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="f11b-4b10-d254-179f" name="Piercing (1)" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="e090-02f4-1f1f-3cc7" name="Breath" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -966,14 +957,13 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="12&quot;"/>
-            <characteristic name="Piercing" characteristicTypeId="2573-02fd-f45c-f702" value="-"/>
-            <characteristic name="Reload" characteristicTypeId="5d9b-c548-d2dd-9f8b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4" value="Chilling Strike (1)"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="a8ab-0750-476e-885b" name="Chilling Strike (1)" hidden="false" targetId="b378-36cb-06bf-e6d6" type="rule">
+        <infoLink id="a8ab-0750-476e-885b" name="Weapon - Chilling Strike (1)" hidden="false" targetId="b378-36cb-06bf-e6d6" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1001,6 +991,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="3&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1187,7 +1179,7 @@
       <modifiers/>
       <description>No dice roll required. Until the end of the Round, all enemy models within 6” of the caster suffer a -1 modifier to all their Melee and Ranged attacks. Mark the caster as Fatigued.</description>
     </rule>
-    <rule id="b378-36cb-06bf-e6d6" name="Chilling Strike (1)" hidden="false">
+    <rule id="b378-36cb-06bf-e6d6" name="Weapon - Chilling Strike (1)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

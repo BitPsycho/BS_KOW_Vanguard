@@ -965,6 +965,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1012,6 +1014,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1057,8 +1061,7 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="9&quot;"/>
-            <characteristic name="Piercing" characteristicTypeId="2573-02fd-f45c-f702" value=""/>
-            <characteristic name="Reload" characteristicTypeId="5d9b-c548-d2dd-9f8b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4"/>
           </characteristics>
         </profile>
       </profiles>

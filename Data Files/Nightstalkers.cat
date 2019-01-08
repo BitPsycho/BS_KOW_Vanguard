@@ -1261,26 +1261,20 @@
   <sharedSelectionEntries>
     <selectionEntry id="94a2-994e-20a1-3082" name="Firebolt" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="a676-068b-ea0d-4f9b" name="Firebolt" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spell">
+        <profile id="a676-068b-ea0d-4f9b" name="Firebolt" hidden="false" profileTypeId="3cda-8938-b7d6-58ab" profileTypeName="Attack - Ranged">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
-            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571"/>
-            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b"/>
+            <characteristic name="Range" characteristicTypeId="41f5-319f-6ccd-eaec" value="9&quot;"/>
+            <characteristic name="Dice Roll" characteristicTypeId="2088-497d-b499-8476" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="b478-b971-cc61-444f" value="Piercing (1)"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="b03a-4645-4375-90a8" name="Piercing (1)" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="3b46-be9a-2f18-d846" name="Firebolt" hidden="false" targetId="7095-4a5b-4a7a-ea05" type="rule">
           <profiles/>
           <rules/>
@@ -1309,6 +1303,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="Y"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1351,6 +1347,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1507,7 +1505,7 @@
       <modifiers/>
       <description>Nominate any one of your Nightstalker models on the table that is not Fatigued. Pick one enemy model within 3” of the nominated Nightstalker. This model must immediately make a Nerve test with a -1 modifier. If the test if failed the model is marked as Activated. Any rules that apply to Nerve tests (e.g. Inspiring) can be used normally. This ability may be used once in each Nightstalker Turn, and is not limited to one use per Round.</description>
     </rule>
-    <rule id="7095-4a5b-4a7a-ea05" name="Firebolt" hidden="false">
+    <rule id="7095-4a5b-4a7a-ea05" name="Attack - Firebolt" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

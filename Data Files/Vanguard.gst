@@ -25,8 +25,7 @@
     <profileType id="ee66-a079-031d-2e14" name="Equipment - Shooting">
       <characteristicTypes>
         <characteristicType id="1705-310a-e353-1da1" name="Range"/>
-        <characteristicType id="2573-02fd-f45c-f702" name="Piercing"/>
-        <characteristicType id="5d9b-c548-d2dd-9f8b" name="Reload"/>
+        <characteristicType id="8da7-8859-a70e-c8a4" name="Rules"/>
       </characteristicTypes>
     </profileType>
     <profileType id="33dc-fb92-76ea-f796" name="Spell">
@@ -34,11 +33,8 @@
         <characteristicType id="c023-a997-9c10-c42c" name="Range"/>
         <characteristicType id="8297-1752-8ed2-7571" name="Dice Roll"/>
         <characteristicType id="7f9e-a120-a045-f95b" name="Boostable"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="663e-3f71-8395-c6af" name="Spellcaster (Not Used ATM)">
-      <characteristicTypes>
-        <characteristicType id="7fde-533d-1eb4-529a" name="Maximum Spells"/>
+        <characteristicType id="8b19-fa5a-3224-b8b5" name="Rules"/>
+        <characteristicType id="ed87-4c1b-85df-b365" name="Rules Boosted"/>
       </characteristicTypes>
     </profileType>
     <profileType id="f010-4988-a52b-2fc0" name="Items - Sundries">
@@ -79,7 +75,16 @@
       </characteristicTypes>
     </profileType>
     <profileType id="d208-3ff2-f4a5-7e56" name="Equipment - Melee">
-      <characteristicTypes/>
+      <characteristicTypes>
+        <characteristicType id="71ed-d60e-e323-198b" name="Rules"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="3cda-8938-b7d6-58ab" name="Attack - Ranged">
+      <characteristicTypes>
+        <characteristicType id="41f5-319f-6ccd-eaec" name="Range"/>
+        <characteristicType id="2088-497d-b499-8476" name="Dice Roll"/>
+        <characteristicType id="b478-b971-cc61-444f" name="Rules"/>
+      </characteristicTypes>
     </profileType>
   </profileTypes>
   <categoryEntries>
@@ -138,7 +143,9 @@
           <description>
 BETA Implemenation
 
-All warband rules listed on page 45 of the rulebook can be validated by Battlescribe.</description>
+All warband rules listed on page 45 of the rulebook can be validated by Battlescribe.
+
+Please note that Kings of War - Vanguard and all its related content are copyrighted by Mantic Games. Content used with their permission.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -287,7 +294,9 @@ All warband rules listed on page 45 of the rulebook can be validated by Battlesc
           <description>
 BETA Implemenation
 
-All warband rules for SMALLER games listed on page 45 of the rulebook can be validated by Battlescribe.</description>
+All warband rules for SMALLER games listed on page 45 of the rulebook can be validated by Battlescribe.
+
+Please note that Kings of War - Vanguard and all its related content are copyrighted by Mantic Games. Content used with their permission.</description>
         </rule>
       </rules>
       <infoLinks/>
@@ -375,7 +384,9 @@ All warband rules for SMALLER games listed on page 45 of the rulebook can be val
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <characteristics/>
+          <characteristics>
+            <characteristic name="Rules" characteristicTypeId="71ed-d60e-e323-198b"/>
+          </characteristics>
         </profile>
       </profiles>
       <rules/>
@@ -407,9 +418,8 @@ All warband rules for SMALLER games listed on page 45 of the rulebook can be val
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="12"/>
-            <characteristic name="Piercing" characteristicTypeId="2573-02fd-f45c-f702" value="1"/>
-            <characteristic name="Reload" characteristicTypeId="5d9b-c548-d2dd-9f8b" value="Y"/>
+            <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="12&quot;"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4" value="Piercing (1), Reload"/>
           </characteristics>
         </profile>
         <profile id="94cd-bb83-8c7c-c9ee" name="Crossbow" hidden="true" profileTypeId="34a1-9e5d-3e4b-22ef" profileTypeName="Common Items - Ranged">
@@ -475,8 +485,7 @@ All warband rules for SMALLER games listed on page 45 of the rulebook can be val
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="12&quot;"/>
-            <characteristic name="Piercing" characteristicTypeId="2573-02fd-f45c-f702"/>
-            <characteristic name="Reload" characteristicTypeId="5d9b-c548-d2dd-9f8b"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4"/>
           </characteristics>
         </profile>
         <profile id="8b7c-7a4d-7c04-7d34" name="Bow" hidden="true" profileTypeId="34a1-9e5d-3e4b-22ef" profileTypeName="Common Items - Ranged">
@@ -511,9 +520,8 @@ All warband rules for SMALLER games listed on page 45 of the rulebook can be val
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="12"/>
-            <characteristic name="Piercing" characteristicTypeId="2573-02fd-f45c-f702"/>
-            <characteristic name="Reload" characteristicTypeId="5d9b-c548-d2dd-9f8b"/>
+            <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="12&quot;"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4"/>
           </characteristics>
         </profile>
         <profile id="ed31-700a-43c7-ba9c" name="Light Crossbow" hidden="true" profileTypeId="34a1-9e5d-3e4b-22ef" profileTypeName="Common Items - Ranged">
@@ -804,8 +812,7 @@ All warband rules for SMALLER games listed on page 45 of the rulebook can be val
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="6&quot;"/>
-            <characteristic name="Piercing" characteristicTypeId="2573-02fd-f45c-f702" value="-"/>
-            <characteristic name="Reload" characteristicTypeId="5d9b-c548-d2dd-9f8b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4"/>
           </characteristics>
         </profile>
       </profiles>
@@ -948,8 +955,7 @@ All warband rules for SMALLER games listed on page 45 of the rulebook can be val
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="15&quot;"/>
-            <characteristic name="Piercing" characteristicTypeId="2573-02fd-f45c-f702" value="1"/>
-            <characteristic name="Reload" characteristicTypeId="5d9b-c548-d2dd-9f8b" value="X"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1005,8 +1011,7 @@ All warband rules for SMALLER games listed on page 45 of the rulebook can be val
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="1705-310a-e353-1da1" value="15&quot;"/>
-            <characteristic name="Piercing" characteristicTypeId="2573-02fd-f45c-f702"/>
-            <characteristic name="Reload" characteristicTypeId="5d9b-c548-d2dd-9f8b"/>
+            <characteristic name="Rules" characteristicTypeId="8da7-8859-a70e-c8a4"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1123,6 +1128,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="2D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="Y"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365" value="Breath"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1151,6 +1158,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="2D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1179,6 +1188,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="3D8 "/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="Y"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1207,6 +1218,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="3D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="2P"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5" value="Piercing (1), Marksman"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365" value="Area Effect (2&quot; / 2D8)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1248,6 +1261,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="2D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5" value="Piercing (1)"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1283,6 +1298,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="Self"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1319,6 +1336,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="-"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="1P"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1347,6 +1366,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="2D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1375,6 +1396,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="3D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1403,6 +1426,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="3D8"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="Y"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5" value=""/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365" value="Piercing (1)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1800,6 +1825,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="2D8"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="Y"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1836,6 +1863,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="2D8"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="2P"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1872,6 +1901,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="2P"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1900,6 +1931,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1928,6 +1961,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="2P"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -1956,12 +1991,14 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="2D8"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5" value="Piercing (2)"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
           <rules/>
           <infoLinks>
-            <infoLink id="49bc-82d0-f953-df1b" name="Piercing (2)" hidden="false" targetId="3134-cb69-0b82-ff1a" type="rule">
+            <infoLink id="49bc-82d0-f953-df1b" name="Spell - Piercing (2)" hidden="false" targetId="2d6c-7f42-6d86-f6fc" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -2011,6 +2048,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2047,6 +2086,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="2D8"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2075,6 +2116,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2103,6 +2146,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="Self"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2131,6 +2176,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2159,6 +2206,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="(n)P"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2348,6 +2397,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2376,6 +2427,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="3&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2404,6 +2457,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2432,6 +2487,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="1D8"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2460,6 +2517,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="Self"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2488,6 +2547,8 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
                 <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="-"/>
                 <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
                 <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="Y"/>
+                <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+                <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
               </characteristics>
             </profile>
           </profiles>
@@ -2952,7 +3013,7 @@ Repeat a link in the warband root rules for every increase you want.</descriptio
       <infoLinks/>
       <modifiers/>
     </rule>
-    <rule id="0eac-eab3-f72e-6f2c" name="Spear" hidden="false">
+    <rule id="0eac-eab3-f72e-6f2c" name="Weapon - Spear" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2966,6 +3027,18 @@ Repeat a link in the warband root rules for every increase you want.</descriptio
       <modifiers/>
     </rule>
     <rule id="34ba-33d9-c057-fd44" name="Spell - Piercing (1)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="af6b-f940-da85-9762" name="Spell - Crushing Strength (n)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="2d6c-7f42-6d86-f6fc" name="Spell - Piercing (2)" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

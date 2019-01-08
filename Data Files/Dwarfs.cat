@@ -920,17 +920,13 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5" value="Breath"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="3cb2-9ba6-29fe-3310" name="Breath" hidden="false" targetId="8e13-f6c7-f62e-6a82" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
         <infoLink id="4e43-0572-c01f-b4d9" name="Spell - Earthquake" hidden="false" targetId="f5ff-97ee-4d00-5dbd" type="rule">
           <profiles/>
           <rules/>
@@ -966,8 +962,10 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
-            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571"/>
-            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b"/>
+            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
+            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1024,7 +1022,7 @@
       <profiles/>
       <rules/>
       <infoLinks>
-        <infoLink id="5fff-c58a-b80e-c622" name="Battledrill" hidden="false" targetId="b0f8-686f-9124-0d75" type="rule">
+        <infoLink id="5fff-c58a-b80e-c622" name="Weapon - Battledrill" hidden="false" targetId="b0f8-686f-9124-0d75" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1188,7 +1186,7 @@
       <modifiers/>
       <description>Cast on self or target a single friendly model within range, even if it is Engaged. Roll 3D8. For each 7+ rolled, the Ar stat of the target is improved by 1 until the end of the Round. (e.g. 5+ becomes 4+), to a maximum of 3+.</description>
     </rule>
-    <rule id="df56-154a-31a4-ba5b" name="Shieldbreaker Hammer" hidden="false">
+    <rule id="df56-154a-31a4-ba5b" name="Weapon - Shieldbreaker Hammer" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1202,7 +1200,7 @@
       <modifiers/>
       <description>When involved in a Group Shoot Action, Ironwatch models add +1 dice to their Ranged Attack roll if one or more other Ironwatch models in the group fire at the same target.</description>
     </rule>
-    <rule id="b0f8-686f-9124-0d75" name="Battledrill" hidden="false">
+    <rule id="b0f8-686f-9124-0d75" name="Weapon - Battledrill" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

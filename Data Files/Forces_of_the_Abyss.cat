@@ -1318,27 +1318,21 @@
   <sharedSelectionEntries>
     <selectionEntry id="072f-b706-082b-e5c5" name="Firebolt" hidden="false" collective="false" type="upgrade">
       <profiles>
-        <profile id="058d-0390-054b-d6b2" name="Firebolt" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spell">
+        <profile id="058d-0390-054b-d6b2" name="Firebolt" hidden="false" profileTypeId="3cda-8938-b7d6-58ab" profileTypeName="Attack - Ranged">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="9&quot;"/>
-            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value=""/>
-            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Range" characteristicTypeId="41f5-319f-6ccd-eaec" value="9&quot;"/>
+            <characteristic name="Dice Roll" characteristicTypeId="2088-497d-b499-8476" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="b478-b971-cc61-444f" value="Piercing (1)"/>
           </characteristics>
         </profile>
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="80ab-40b4-5a64-c3ee" name="Piercing (1)" hidden="false" targetId="c368-af1a-68cf-2b9b" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-        </infoLink>
-        <infoLink id="abb1-ecec-27e8-f047" name="Firebolt" hidden="false" targetId="9411-dbe0-66e8-6b53" type="rule">
+        <infoLink id="abb1-ecec-27e8-f047" name="Attack - Firebolt" hidden="false" targetId="9411-dbe0-66e8-6b53" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1366,6 +1360,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1408,8 +1404,10 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6&quot;"/>
-            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value=""/>
+            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1618,7 +1616,7 @@
       <modifiers/>
       <description>The target suffers 1 automatic hit. If a wound is caused, the target suffers another automatic hit as the flames continue to burn. Repeat this process until the target is either dead or the flames are put out by a successful Armour roll.</description>
     </rule>
-    <rule id="9411-dbe0-66e8-6b53" name="Firebolt" hidden="false">
+    <rule id="9411-dbe0-66e8-6b53" name="Attack - Firebolt" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>

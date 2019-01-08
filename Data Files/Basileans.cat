@@ -360,14 +360,12 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
-        <entryLink id="6c00-3c18-131a-73f5" name="Spellbook - Basilean (Free)" hidden="false" targetId="8d13-85a7-128d-858b" type="selectionEntryGroup">
+        <entryLink id="6c00-3c18-131a-73f5" name=" Spellbook - Basilean (Free)" hidden="false" targetId="8d13-85a7-128d-858b" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1efa-0f06-f1ec-79c3" type="max"/>
-          </constraints>
+          <constraints/>
           <categoryLinks>
             <categoryLink id="482f-1b19-b63a-fcf4" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false">
               <profiles/>
@@ -1401,8 +1399,10 @@
           <modifiers/>
           <characteristics>
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="12"/>
-            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571"/>
+            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="-"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1455,6 +1455,8 @@
             <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c" value="6"/>
             <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571" value="-"/>
             <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b" value="1P"/>
+            <characteristic name="Rules" characteristicTypeId="8b19-fa5a-3224-b8b5"/>
+            <characteristic name="Rules Boosted" characteristicTypeId="ed87-4c1b-85df-b365"/>
           </characteristics>
         </profile>
       </profiles>
