@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1696-0eed-a727-7052" name="The Trident Realm" book="Vanguard abridged Warbands-dec31.pdf" page="16" revision="1" battleScribeVersion="2.01" authorUrl="https://github.com/BitPsycho/BS_KOW_Vanguard/" gameSystemId="37f5-f8f9-2ecf-9c36" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="4b76-23c7-8441-b2dd" name="Otter Bevy" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="32a3-be30-5403-f530" name="Otter Bevy" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="6"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="7+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="7+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="3"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="1"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Neutral"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="45d8-b569-0c5e-5760" name="Swarm" hidden="false" targetId="1025-9473-ccb9-71b5" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d720-ee00-7eba-7456" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2c26-92b0-ea7b-9b30" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e8fb-f2e2-3040-217e" name="Naiad Heartpiercer" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2274-7a92-4b69-3454" name="Naiad Heartpiercer" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="6"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="5+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="6+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="5+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="2D8"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Neutral"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="64b7-f872-c5bd-6969" name="Equipment: Harpoon-gun" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Range 9”
+Piercing (1)</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ff41-0f62-febb-3a5b" name="Regenerate (7+)" hidden="false" targetId="c15d-9055-202a-1475" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="a4e7-6100-cbbd-1e2b" name="Warrior" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56be-d423-328c-cef8" name="Giga" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2be6-1a5d-52a7-defd" name="Giga" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="4"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="4+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="5+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="3+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="5"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="3"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="3D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Neutral"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d720-42c2-8393-9675" name="Vicious Swipe" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When attempting to Break Away from a Giga, enemy models have a -1 modifier when they make their Armour roll.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3468-7446-6c04-ea38" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="bd95-bb16-864f-a41f" name="Pound" hidden="false" targetId="7fd8-583b-4c57-d0c9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="aca5-143c-1b86-077b" name="Steady" hidden="false" targetId="b26e-9018-2d56-fa19" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6798-28d2-ec7c-2320" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="35.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9fa9-3e4c-6d10-1583" name="Riverguard Sentinel" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1508-3b09-284d-ddcf" name="Riverguard Sentinel" hidden="false" profileTypeId="33dc-fb92-76ea-f796" profileTypeName="Spell">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Range" characteristicTypeId="c023-a997-9c10-c42c"/>
+            <characteristic name="Dice Roll" characteristicTypeId="8297-1752-8ed2-7571"/>
+            <characteristic name="Boostable" characteristicTypeId="7f9e-a120-a045-f95b"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1d1d-633a-c41e-b120" name="Equipment: Javelin" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Range 9&quot;,
+Pound</description>
+        </rule>
+        <rule id="79a0-0b33-2722-de70" name="BOUNDER (1) " hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Use this ability when this model is activated. Grants this model the Fly ability until the end of the Round.</description>
+        </rule>
+        <rule id="3b70-5296-4358-166c" name="EVASION (1)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Use this ability when this model activates. Grants this model the Dodge and Stealthy abilities until the end of the Round.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="52f5-c3ad-9fee-04e6" name="Pathfinder" hidden="false" targetId="d784-105b-8a37-5071" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="41e8-fa78-a3fa-025f" name="Marksman" hidden="false" targetId="eaf9-1104-cc8b-b6e6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5964-5f74-a5e5-a2e3" name="Scout" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="13b2-63aa-7a7d-c213" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7df2-f295-52eb-2993" name="Power Dice Red (2)" hidden="false" targetId="5606-f1ee-89dc-5257" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e409-dcb5-fa58-44cb" name="New CategoryLink" hidden="false" targetId="acf5-674c-f31b-80a2" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="44.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c1ba-ed3d-22a4-bc66" name="Riverguard" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="eddf-23e3-878d-cc3d" name="Riverguard" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="6"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="6+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="5+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="6+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="6+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="2D8"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="1D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Neutral"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8e29-6a5f-b431-5d6f" name="Equipment: Javelin" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Range 9&quot;
+Pound</description>
+        </rule>
+        <rule id="beab-3144-313f-8d39" name="BOUNDER (1)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Use this ability when this model is activated. Grants this model the Fly ability until the end of the Round.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7894-62d5-25dc-bc4c" name="Pathfinder" hidden="false" targetId="d784-105b-8a37-5071" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="1f1d-8e55-17df-d4be" name="Vicious" hidden="false" targetId="7ab6-3cc6-82ce-2437" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ced0-70c3-d904-8b67" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ea9-61f3-f09f-d1dc" name="Thuul" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="64b5-85a8-e935-d6c1" name="Thuul" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d9d3-5e52-b848-f991" name="New CategoryLink" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c63-3743-fd7d-070e" name="Thuul Mythican" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="875e-e193-9005-1af5" name="Thuul Mythican" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="5"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="5+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="6+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="5+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Neutral"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6f2c-8c89-8077-5cfd" name="Power Dice White (1)" hidden="false" targetId="fb0f-ab7c-3175-77f3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2cdc-1a66-3e1b-6fd3" name="Inspiring" hidden="false" targetId="c182-1549-6080-b945" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="01c8-c1f8-da89-1328" name="New CategoryLink" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4373-9d6c-ee40-ff74" name="Shockwave (long)" hidden="false" targetId="c138-2461-fd50-e309" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="dc33-5a51-d3d9-418c" name="Stun (short)" hidden="false" targetId="b952-579e-3ca1-9ae0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="132e-4e11-2d5c-d4fe" name="Windblast (long)" hidden="false" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="a665-20c6-3a04-54b2" name="Water Elemental" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="d69e-25a6-4072-a2c0" name="Water Elemental" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="6"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="-"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="4+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="4+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="4"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="3"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="-"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="5D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Neutral"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9ce8-a303-2b88-2035" name="Crushing Strength (2)" hidden="false" targetId="dbde-2f47-77ef-7c4b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="da5b-a9d0-eb4b-a00e" name="Regenerate (6+)" hidden="false" targetId="2314-80d9-833b-9841" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="eae5-46ba-b0fb-30f9" name="New CategoryLink" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="32.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e944-4c48-43c6-df62" name="Naiad Lurker" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="5eb2-a2c6-2508-df68" name="Naiad Lurker" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d" value="6"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0" value="5+"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1" value="5+"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a" value="6+"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d" value="5+"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b" value="2"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9" value="2"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13" value="1D8"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e" value="2D8"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251" value="Neutral"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3af3-72e3-af1d-c215" name="Equipment: Trident" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>For any hit scored with this weapon the target model is automatically Fatigued.</description>
+        </rule>
+        <rule id="21ff-ac6f-66b8-3060" name="Equipment: Net" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Break away actions from this model are made rolling 2 dice for the armour roll rather than the normal 1. Each failed roll causes a wound as normal.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8a3d-0e8a-108c-e0c1" name="Power Dice Red (1)" hidden="false" targetId="df35-5711-86fa-5665" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="127c-ac8b-e252-50f2" name="Regenerate (7+)" hidden="false" targetId="c15d-9055-202a-1475" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="453d-9018-d214-db7d" name="Scout" hidden="false" targetId="5209-65f6-aa6e-7643" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="dd1a-49d5-3056-0324" name="New CategoryLink" hidden="false" targetId="c194-28e4-665e-319c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="43a5-2a04-0c45-4feb" name="Naiad Centurion" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="2e56-d145-318b-93e6" name="Naiad Centurion" hidden="false" profileTypeId="8146-3b99-e6f9-d0a1" profileTypeName=" Warband Member">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="cf71-9092-4511-812d"/>
+            <characteristic name="Me" characteristicTypeId="2554-7056-7252-7cb0"/>
+            <characteristic name="Ra" characteristicTypeId="bc43-4f04-cc0b-d5a1"/>
+            <characteristic name="Ar" characteristicTypeId="cbb8-58cf-daa7-a95a"/>
+            <characteristic name="Ne" characteristicTypeId="945e-25f3-67f4-228d"/>
+            <characteristic name="Wn" characteristicTypeId="0d6a-358f-3234-b66b"/>
+            <characteristic name="H" characteristicTypeId="492c-c3ca-0905-99c9"/>
+            <characteristic name="Ranged" characteristicTypeId="0a27-40ac-5701-ef13"/>
+            <characteristic name="Melee" characteristicTypeId="01d6-153a-0767-f01e"/>
+            <characteristic name="Alignment" characteristicTypeId="e9b1-68cd-5cbd-0251"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b0e8-32a8-745f-9092" name="Equipment: harpoon-gun" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Range 9”, Piercing (1)</description>
+        </rule>
+        <rule id="109d-6bff-e695-3b49" name="BATTLE RAGE (2)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If this model can Engage an enemy model with a follow-up move, it may Engage that model and initiate another Melee by using the ability to go into a Battle Rage. This model will not get any bonus dice for charging however. Once this second Melee has been resolved, mark this model as Fatigued.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="54b8-d63f-83ea-aad1" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="2f5f-9585-1942-52ea" name="Inspiring" hidden="false" targetId="c182-1549-6080-b945" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6407-e377-3acc-baae" name="Regenerate (7+)" hidden="false" targetId="c15d-9055-202a-1475" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="92ed-d135-1b6e-68ff" name="New CategoryLink" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="45.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="7006-4753-dc92-1c1c" name="Spellbook - The Trident Realm (Free)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03a4-a588-3fb0-da16" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="26e9-51fe-f21a-8985" name="Spellbook - The Trident Realm (Paid)" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9e9-ebcd-2fae-1089" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="9d50-15cd-cc21-61c9" name="Spellbook - Thuul Mythican" book="" page="" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2d10-a6c2-eaa1-eba2" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="1c31-94f8-d19c-447b" name="Windblast (long)" hidden="false" targetId="5fd3-a380-e44f-d9d2" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="0a0f-84f2-1865-5919" name="Shockwave (long)" hidden="false" targetId="c138-2461-fd50-e309" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="b02d-ed57-7557-392d" name="Stun (short)" hidden="false" targetId="b952-579e-3ca1-9ae0" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="8f7e-a461-a88b-93a4" name="Spell - Riptide (long)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Range 9”
+Target up to two enemy models within 3” of each other, even if they are Engaged. Targeted models are moved 3” (as directly and as far as possible) away from the caster, making Armour rolls if forced to Break Away as normal. Any models that were moved are then Knocked-down. Models with the Steady special rules are only Knocked down on a 5+ on a single die roll.</description>
+    </rule>
+    <rule id="7a97-4229-8776-c990" name="Spell - Crushing Pressure (long)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Range: 6”, 3D8, Piercing (1)
+If the target suffers any wounds, they are pinned in place and cannot make any Walk or Run actions for the rest of this Round.</description>
+    </rule>
+    <rule id="fd9f-cfe1-fed3-435a" name="Rising Tides (2)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Use this ability at the start of a Turn. Until the end of the Round, all models in the warband of Race NERITICAN increase their Speed stat by 2 when making any basic Walk or Run movement action (climbing is excluded). Alternatively, instead of gaining the extra Speed, any NERITICAN model that is Knocked-down can perform a Stand Up action for free when they are activated. This ability may only be used once per Turn.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles/>
+</catalogue>
