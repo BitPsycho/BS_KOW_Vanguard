@@ -28,7 +28,7 @@
         <characteristicType id="8da7-8859-a70e-c8a4" name="Rules"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="33dc-fb92-76ea-f796" name="Spell">
+    <profileType id="33dc-fb92-76ea-f796" name="Spells">
       <characteristicTypes>
         <characteristicType id="c023-a997-9c10-c42c" name="Range"/>
         <characteristicType id="8297-1752-8ed2-7571" name="Dice Roll"/>
@@ -276,6 +276,13 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="902d-71ae-0a7e-d3de" value="1">
+              <repeats>
+                <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="75a6-b0bd-5078-4077" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="3734-3c1c-d6b8-29c2" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="902d-71ae-0a7e-d3de" type="max"/>
@@ -357,7 +364,15 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="10aa-d350-33ac-63b1" value="1">
+              <repeats>
+                <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="75a6-b0bd-5078-4077" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints>
             <constraint field="selections" scope="a731-8a45-7af3-5326" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10aa-d350-33ac-63b1" type="max"/>
           </constraints>
@@ -1470,6 +1485,23 @@ Note: Stats are not automatically adjusted in the unit roster.</description>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4fef-b70e-c24e-786f" type="min"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="faf7-4a4a-fcf9-391b" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="75a6-b0bd-5078-4077" name="Rule Check - Ignore Large Limit" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="727f-dbfa-44e2-4c80" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a972-eca1-49df-583b" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
