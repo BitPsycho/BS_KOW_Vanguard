@@ -1471,7 +1471,7 @@ Choose an enemy model within 9” and LOS of the Warlock. The chosen model must 
       <modifiers/>
       <description>Use when the model activates. The model may cast the same spell twice this Turn if it has enough actions.</description>
     </rule>
-    <rule id="45af-e062-b65a-ebcf" name="Equipment: Ogre Spear" hidden="false">
+    <rule id="45af-e062-b65a-ebcf" name="Equipment - Ogre Spear" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
