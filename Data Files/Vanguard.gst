@@ -141,7 +141,7 @@
           <infoLinks/>
           <modifiers/>
           <description>
-BETA Implemenation
+ALPHA Implemenation
 
 All warband rules listed on page 45 of the rulebook can be validated by Battlescribe.
 
@@ -299,7 +299,7 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
           <infoLinks/>
           <modifiers/>
           <description>
-BETA Implemenation
+ALPHA Implemenation
 
 All warband rules for SMALLER games listed on page 45 of the rulebook can be validated by Battlescribe.
 
@@ -733,7 +733,14 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="7f48-119a-0667-72fb" name="Equipment Warning - Stats Modifier" hidden="false" targetId="2d98-c03d-6662-8840" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers>
         <modifier type="set" field="0079-3dd3-1711-ec40" value="0.0">
           <repeats/>
@@ -1063,12 +1070,17 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>The model gains +2 SP to a maximum of 8, +1 Height, +1 Wound and the Cavalry special rule.  Models loose the fly rule while using a Miount.  The models base size becomes Cavalry.
-Note: Stats are not automatically adjusted in the unit roster.</description>
+          <description>The model gains +2 SP to a maximum of 8, +1 Height, +1 Wound and the Cavalry special rule.  Models loose the fly rule while using a Miount.  The models base size becomes Cavalry.</description>
         </rule>
       </rules>
       <infoLinks>
         <infoLink id="6251-e02a-dd28-4ca6" name="Cavalry" hidden="false" targetId="8a34-74be-5d22-bf2e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f1eb-fc79-f23e-c696" name="Equipment Warning - Stats Modifier" hidden="false" targetId="2d98-c03d-6662-8840" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -3075,6 +3087,13 @@ Repeat a link in the warband root rules for every increase you want.</descriptio
       <rules/>
       <infoLinks/>
       <modifiers/>
+    </rule>
+    <rule id="2d98-c03d-6662-8840" name="Items Warning - Stats Modifier" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Modifies stats from the warband member - this is not done automatically so please verify and adjust manually !</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
