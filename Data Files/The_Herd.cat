@@ -401,7 +401,7 @@
       </profiles>
       <rules/>
       <infoLinks>
-        <infoLink id="170f-ada0-38f7-c3dd" name="Tribal Hunter Shooting" hidden="false" targetId="898f-d6d6-12fc-e461" type="rule">
+        <infoLink id="170f-ada0-38f7-c3dd" name="Combined Fire" hidden="false" targetId="b43b-e9a2-0881-2568" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -851,7 +851,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8554-ee09-390c-3274" name="Stampede (short)" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -893,7 +895,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="874f-5aa4-bd5f-393f" name="Two-handed Weapon" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -903,7 +907,7 @@
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Rules" characteristicTypeId="71ed-d60e-e323-198b"/>
+            <characteristic name="Rules" characteristicTypeId="71ed-d60e-e323-198b" value="Crushing Strength (1)"/>
           </characteristics>
         </profile>
       </profiles>
@@ -947,7 +951,9 @@
       <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

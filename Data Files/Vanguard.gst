@@ -86,6 +86,20 @@
         <characteristicType id="b478-b971-cc61-444f" name="Rules"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="b8da-40d2-5931-3169" name="Profile Modifier">
+      <characteristicTypes>
+        <characteristicType id="5dbf-491c-ddb3-1106" name="Sp"/>
+        <characteristicType id="348a-532b-019c-69a7" name="Me"/>
+        <characteristicType id="0944-da6e-5432-b1f8" name="Ra"/>
+        <characteristicType id="7814-8fa3-cfc1-238d" name="Ar"/>
+        <characteristicType id="2c6a-7444-f523-ae30" name="Ne"/>
+        <characteristicType id="392b-3d86-74a2-0892" name="Wn"/>
+        <characteristicType id="2343-79f9-8f66-ab76" name="H"/>
+        <characteristicType id="3745-5cb8-9067-adef" name="Ranged"/>
+        <characteristicType id="8da6-5376-2b1c-c437" name="Melee"/>
+        <characteristicType id="824d-b0b8-055a-b1a3" name="Rules"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="acf5-674c-f31b-80a2" name="Grunt" hidden="false">
@@ -731,6 +745,24 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
             <characteristic name="Notes" characteristicTypeId="5454-8cfb-9694-f750" value="Cannot be taken by LARGE models or those with the Cavalry special rule."/>
           </characteristics>
         </profile>
+        <profile id="64df-9ef9-12e9-96a3" name="Common Mount" hidden="false" profileTypeId="b8da-40d2-5931-3169" profileTypeName=" Warband Member Item Modifier">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="5dbf-491c-ddb3-1106" value="+2 (max 8)"/>
+            <characteristic name="Me" characteristicTypeId="348a-532b-019c-69a7"/>
+            <characteristic name="Ra" characteristicTypeId="0944-da6e-5432-b1f8"/>
+            <characteristic name="Ar" characteristicTypeId="7814-8fa3-cfc1-238d"/>
+            <characteristic name="Ne" characteristicTypeId="2c6a-7444-f523-ae30"/>
+            <characteristic name="Wn" characteristicTypeId="392b-3d86-74a2-0892"/>
+            <characteristic name="H" characteristicTypeId="2343-79f9-8f66-ab76" value="+1"/>
+            <characteristic name="Ranged" characteristicTypeId="3745-5cb8-9067-adef"/>
+            <characteristic name="Melee" characteristicTypeId="8da6-5376-2b1c-c437"/>
+            <characteristic name="Rules" characteristicTypeId="824d-b0b8-055a-b1a3" value="+Cavalry, -Fly"/>
+          </characteristics>
+        </profile>
       </profiles>
       <rules/>
       <infoLinks>
@@ -1061,6 +1093,24 @@ Please note that Kings of War - Vanguard and all its related content are copyrig
           <modifiers/>
           <characteristics>
             <characteristic name="Notes" characteristicTypeId="5454-8cfb-9694-f750" value="Cannot be taken by LARGE models or those with the Cavalry special rule."/>
+          </characteristics>
+        </profile>
+        <profile id="59c9-7e7a-431e-d391" name="Rare Mount" hidden="false" profileTypeId="b8da-40d2-5931-3169" profileTypeName=" Warband Member Item Modifier">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Sp" characteristicTypeId="5dbf-491c-ddb3-1106" value="+2 (max 8)"/>
+            <characteristic name="Me" characteristicTypeId="348a-532b-019c-69a7"/>
+            <characteristic name="Ra" characteristicTypeId="0944-da6e-5432-b1f8"/>
+            <characteristic name="Ar" characteristicTypeId="7814-8fa3-cfc1-238d"/>
+            <characteristic name="Ne" characteristicTypeId="2c6a-7444-f523-ae30"/>
+            <characteristic name="Wn" characteristicTypeId="392b-3d86-74a2-0892" value="+1"/>
+            <characteristic name="H" characteristicTypeId="2343-79f9-8f66-ab76" value="+1"/>
+            <characteristic name="Ranged" characteristicTypeId="3745-5cb8-9067-adef"/>
+            <characteristic name="Melee" characteristicTypeId="8da6-5376-2b1c-c437"/>
+            <characteristic name="Rules" characteristicTypeId="824d-b0b8-055a-b1a3" value="+Cavalry, -Fly"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3094,6 +3144,13 @@ Repeat a link in the warband root rules for every increase you want.</descriptio
       <infoLinks/>
       <modifiers/>
       <description>Modifies stats from the warband member - this is not done automatically so please verify and adjust manually !</description>
+    </rule>
+    <rule id="b43b-e9a2-0881-2568" name="Combined Fire" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>When involved in a Group Shoot Action, models of this type add +1 dice to their Ranged Attack roll if one or more other models of the same type in the group fire at the same target.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
