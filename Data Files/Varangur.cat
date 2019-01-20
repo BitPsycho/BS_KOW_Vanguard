@@ -281,20 +281,6 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
-        <infoLink id="7632-9d26-91e8-32f4" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="f6b6-dde3-9268-239f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d22c-1857-abf2-b8f6" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </infoLink>
       </infoLinks>
       <modifiers>
         <modifier type="increment" field="be7b-499a-8445-4ef1" value="1">
@@ -933,29 +919,12 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="355e-b804-781a-6aac" name="Brand of the Warrior" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="7ed1-b0b9-5f6e-d06f" name="Brand of the Warrior" hidden="false" profileTypeId="b8da-40d2-5931-3169" profileTypeName="Profile Modifier">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Sp" characteristicTypeId="5dbf-491c-ddb3-1106"/>
-            <characteristic name="Me" characteristicTypeId="348a-532b-019c-69a7"/>
-            <characteristic name="Ra" characteristicTypeId="0944-da6e-5432-b1f8"/>
-            <characteristic name="Ar" characteristicTypeId="7814-8fa3-cfc1-238d"/>
-            <characteristic name="Ne" characteristicTypeId="2c6a-7444-f523-ae30"/>
-            <characteristic name="Wn" characteristicTypeId="392b-3d86-74a2-0892"/>
-            <characteristic name="H" characteristicTypeId="2343-79f9-8f66-ab76"/>
-            <characteristic name="Ranged" characteristicTypeId="3745-5cb8-9067-adef"/>
-            <characteristic name="Melee" characteristicTypeId="8da6-5376-2b1c-c437"/>
-            <characteristic name="Rules" characteristicTypeId="824d-b0b8-055a-b1a3" value="Bloodlust"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <profiles/>
       <rules/>
       <infoLinks>
         <infoLink id="4f03-c537-00a0-6df8" name="Bloodlust" hidden="false" targetId="4298-bc07-8bde-44db" type="rule">
@@ -978,26 +947,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="51bd-fe02-f269-ae92" name="Guise of the Deceiver" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="c27c-3686-1dc9-b2bc" name="Guise of the Deceiver" hidden="false" profileTypeId="b8da-40d2-5931-3169" profileTypeName="Profile Modifier">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Sp" characteristicTypeId="5dbf-491c-ddb3-1106"/>
-            <characteristic name="Me" characteristicTypeId="348a-532b-019c-69a7"/>
-            <characteristic name="Ra" characteristicTypeId="0944-da6e-5432-b1f8"/>
-            <characteristic name="Ar" characteristicTypeId="7814-8fa3-cfc1-238d"/>
-            <characteristic name="Ne" characteristicTypeId="2c6a-7444-f523-ae30"/>
-            <characteristic name="Wn" characteristicTypeId="392b-3d86-74a2-0892"/>
-            <characteristic name="H" characteristicTypeId="2343-79f9-8f66-ab76"/>
-            <characteristic name="Ranged" characteristicTypeId="3745-5cb8-9067-adef"/>
-            <characteristic name="Melee" characteristicTypeId="8da6-5376-2b1c-c437"/>
-            <characteristic name="Rules" characteristicTypeId="824d-b0b8-055a-b1a3" value="Headstrong"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <profiles/>
       <rules/>
       <infoLinks>
         <infoLink id="c212-81fc-c740-07ab" name="Headstrong" hidden="false" targetId="895c-93e1-e820-84d0" type="rule">
@@ -1020,26 +970,7 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a429-c9ed-ef2f-b0bc" name="Mask of the Reaper" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="1e0d-03ac-e309-eca8" name="Mask of the Reaper" hidden="false" profileTypeId="b8da-40d2-5931-3169" profileTypeName="Profile Modifier">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Sp" characteristicTypeId="5dbf-491c-ddb3-1106"/>
-            <characteristic name="Me" characteristicTypeId="348a-532b-019c-69a7"/>
-            <characteristic name="Ra" characteristicTypeId="0944-da6e-5432-b1f8"/>
-            <characteristic name="Ar" characteristicTypeId="7814-8fa3-cfc1-238d"/>
-            <characteristic name="Ne" characteristicTypeId="2c6a-7444-f523-ae30"/>
-            <characteristic name="Wn" characteristicTypeId="392b-3d86-74a2-0892"/>
-            <characteristic name="H" characteristicTypeId="2343-79f9-8f66-ab76"/>
-            <characteristic name="Ranged" characteristicTypeId="3745-5cb8-9067-adef"/>
-            <characteristic name="Melee" characteristicTypeId="8da6-5376-2b1c-c437"/>
-            <characteristic name="Rules" characteristicTypeId="824d-b0b8-055a-b1a3" value="Regenerate (7+)"/>
-          </characteristics>
-        </profile>
-      </profiles>
+      <profiles/>
       <rules/>
       <infoLinks>
         <infoLink id="06d1-4fad-9ce7-7ed6" name="Regenerate (7+)" hidden="false" targetId="c15d-9055-202a-1475" type="rule">
@@ -1101,7 +1032,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="050f-71c1-67ec-9868" name="Poisoned Throwing Weapon" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1117,7 +1050,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="e417-6a59-5b6e-ba91" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -1143,6 +1083,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="4e85-3d51-ed2a-104b" name="Weapon - Two-handed Weapon" hidden="false" targetId="680e-0ef2-237e-9e07" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="10e9-1d4f-cd4c-a467" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>

@@ -492,22 +492,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="923c-4813-c13a-366b" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="15d9-223b-5397-dc5f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a92e-488d-72b3-41c0" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers>
         <modifier type="increment" field="d016-0d13-46c0-9386" value="1">
           <repeats>
@@ -1097,7 +1082,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="69b2-5f5d-cd1b-9a57" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -1122,7 +1114,20 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="c516-2db1-a31b-5ffa" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="87fd-6612-8588-a3d3" name="Equipment - Pound" hidden="false" targetId="1cc2-005a-94cc-da35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -1148,6 +1153,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="021c-02df-3a90-a066" name="Weapon - Two-handed Weapon" hidden="false" targetId="28c2-80b7-60dc-49e8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="19df-0289-aff6-b969" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1186,6 +1197,12 @@
           <infoLinks/>
           <modifiers/>
         </infoLink>
+        <infoLink id="eb85-a5ea-0797-ccff" name="Equipment - Breath" hidden="false" targetId="4e7b-e090-b103-6569" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
       </infoLinks>
       <modifiers/>
       <constraints/>
@@ -1211,7 +1228,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="62e8-a6a6-9a0d-dfc8" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>

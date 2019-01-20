@@ -197,22 +197,7 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks>
-        <infoLink id="37e7-ba83-ba8f-353f" name="Crushing Strength (1)" hidden="false" targetId="4c89-1651-1e0c-f54a" type="rule">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="aaea-c5ac-e451-ae05" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="874f-5aa4-bd5f-393f" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
+      <infoLinks/>
       <modifiers>
         <modifier type="increment" field="e384-39e0-99da-7014" value="1">
           <repeats>
@@ -914,6 +899,12 @@
       <rules/>
       <infoLinks>
         <infoLink id="4d4b-3e47-9aeb-86a4" name="Weapon - Two-handed Weapon" hidden="false" targetId="9cc5-255b-1a53-70f9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0763-06c5-9174-a7e4" name="Equipment - Crushing Strength (+1)" hidden="false" targetId="82d0-84b3-3276-df29" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>

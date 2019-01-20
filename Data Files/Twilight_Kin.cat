@@ -825,7 +825,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="feab-38a0-cef0-0be8" name="Summon the Reaper (long)" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -860,7 +862,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="edd9-95a5-b684-3e8d" name="Stalker Bow" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -876,7 +880,20 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="70cc-0207-1f56-370f" name="Equipment - Pound" hidden="false" targetId="1cc2-005a-94cc-da35" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="378e-a40a-05df-aa1b" name="Equipment - Piercing (1)" hidden="false" targetId="40b8-1250-1347-c904" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>

@@ -900,7 +900,26 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="d3fe-b47b-0a76-8f11" name="Equipment - Piercing (2)" hidden="false" targetId="66f1-9dc0-f0e2-4ae8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b949-03da-7112-de91" name="Equipment - Marksman" hidden="false" targetId="9bcc-d59f-7ada-1a84" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b6d8-eb52-888a-c1c4" name="Equipment - Reload" hidden="false" targetId="e403-0d82-dc63-2958" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -982,7 +1001,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c88a-b5c6-944d-c4a9" name="Illusory Bombard (long)" hidden="false" collective="false" type="upgrade">
       <profiles>
@@ -1017,7 +1038,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name=" Points" costTypeId="b888-e3bd-8798-6364" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
