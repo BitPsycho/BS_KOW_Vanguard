@@ -1,7 +1,5 @@
 # Looking for info on how to install Vanguard into BattleScribe ? 
 
-The compiled data file you find here MIGHT not be a working version ...
+We have an official BS repository called 'Kings of War - Vanguard'.
 
-It is much better to use our RELEASES in order to ensure you have the latest working version.
-
-[Read our WIKI entry on how to install ](https://github.com/BitPsycho/BS_KOW_Vanguard/wiki#how-to-install-in-battle-scribe)
+The latest official version of this project are thus available via the BattleScribe Manage Data functionality ( in the roster executable ) or via the [BattleScribe Data Files App](https://battlescribedata.appspot.com/#/repos)
