@@ -415,6 +415,174 @@ All warband rules listed on page 45 of the rulebook for smaller warbands can be 
         </categoryLink>
       </categoryLinks>
     </forceEntry>
+    <forceEntry id="419f-be21-35bf-41b8" name="Warband - Normal Games (with Mercenaries)" hidden="false">
+      <profiles/>
+      <rules>
+        <rule id="f3d5-5173-8041-3ce1" name="Warband - Normal Games (with Mercenaries)" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>
+All warband rules listed on page 45 of the rulebook for normal warbands can be validated by Battlescribe.
+Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure your opponent agrees ( Mercenaries are normally only supported in Campaigns ).</description>
+        </rule>
+      </rules>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="4c33-df43-626f-ef57" value="0.0">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a731-8a45-7af3-5326" type="greaterThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3734-3c1c-d6b8-29c2" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4c33-df43-626f-ef57" type="max"/>
+        <constraint field="selections" scope="roster" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="051f-c391-15ee-c976" type="max"/>
+      </constraints>
+      <forceEntries/>
+      <categoryLinks>
+        <categoryLink id="3a7b-8e4b-9581-7c93" name="Command" hidden="false" targetId="8fce-4123-76c7-3f6f" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="0bb5-9782-4abc-bac5" value="1">
+              <repeats>
+                <repeat field="selections" scope="419f-be21-35bf-41b8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34e1-5f10-705b-38f0" type="min"/>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="0bb5-9782-4abc-bac5" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="79f6-40b9-a451-ef3b" name="Grunt" hidden="false" targetId="acf5-674c-f31b-80a2" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="decrement" field="7f1d-8106-39d1-121a" value="1">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="29ef-0bb1-9ab6-8e5c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="7f1d-8106-39d1-121a" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="22b9-022d-a4fb-9365" name="Warrior" hidden="false" targetId="29ef-0bb1-9ab6-8e5c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="decrement" field="11c7-4324-4956-10cd" value="1">
+              <repeats>
+                <repeat field="selections" scope="419f-be21-35bf-41b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="5.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="11c7-4324-4956-10cd" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d5c6-ac7a-34ad-a46f" name="Spellcaster" hidden="false" targetId="e745-e5aa-ccb6-cecb" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="41d4-58a6-349c-98b6" value="1">
+              <repeats>
+                <repeat field="selections" scope="419f-be21-35bf-41b8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41d4-58a6-349c-98b6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="efb2-eb94-d6e8-caeb" name="Support" hidden="false" targetId="c194-28e4-665e-319c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="77d3-734e-752c-32f7" value="1">
+              <repeats>
+                <repeat field="selections" scope="419f-be21-35bf-41b8" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc91-bbea-46b0-1c4c" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="77d3-734e-752c-32f7" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="8ac6-188e-6d5b-e1da" name="Large" hidden="false" targetId="5386-cda4-ccc0-f38d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="7184-adfe-a4c3-80d2" value="1">
+              <repeats>
+                <repeat field="limit::b888-e3bd-8798-6364" scope="roster" value="150.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="7184-adfe-a4c3-80d2" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="36af-b45d-473d-d895" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="7184-adfe-a4c3-80d2" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2dc8-0349-7db9-27e1" type="greaterThan"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="7184-adfe-a4c3-80d2" value="1">
+              <repeats>
+                <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="75a6-b0bd-5078-4077" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="419f-be21-35bf-41b8" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7184-adfe-a4c3-80d2" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5bfa-d1bd-d20d-d46f" name="Mercenary" hidden="false" targetId="5999-b2cc-3385-f57d" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
   </forceEntries>
   <selectionEntries/>
   <entryLinks/>
