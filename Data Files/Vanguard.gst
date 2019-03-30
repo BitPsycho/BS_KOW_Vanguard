@@ -427,7 +427,7 @@ All warband rules listed on page 45 of the rulebook for smaller warbands can be 
           <modifiers/>
           <description>
 All warband rules listed on page 45 of the rulebook for normal warbands can be validated by Battlescribe.
-Custom Rule - Allows to include Mercenaries.  Make sure your opponent agrees ( ( normally only supported in Campaigns ).</description>
+Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure your opponent agrees ( Mercenaries are normally only supported in Campaigns ).</description>
         </rule>
       </rules>
       <infoLinks/>
