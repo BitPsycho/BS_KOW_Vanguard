@@ -652,7 +652,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9da-d4ef-d085-503b" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b9da-d4ef-d085-503b" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="84be-38f1-fc9a-9b31" name="New CategoryLink" hidden="false" targetId="5999-b2cc-3385-f57d" primary="true">
@@ -810,7 +810,7 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
       </infoLinks>
       <modifiers/>
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b28e-c181-c9af-edc2" type="max"/>
+        <constraint field="selections" scope="419f-be21-35bf-41b8" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b28e-c181-c9af-edc2" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="5fd9-acaf-73f8-4a59" name="New CategoryLink" hidden="false" targetId="5999-b2cc-3385-f57d" primary="true">
@@ -4192,6 +4192,13 @@ Custom Rule - Allows to include Mercenaries in your normal war band.  Make sure 
       <rules/>
       <infoLinks/>
       <modifiers/>
+    </rule>
+    <rule id="e9c1-10e3-312f-3d7e" name="Frenzy (1)" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Use this ability to gain 2 bonus dice when this model makes a Melee attack (not a Retaliation). Spend the power before rolling any dice. Cannot be used in conjunction with the normal use of Power to gain a bonus die for a roll.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
